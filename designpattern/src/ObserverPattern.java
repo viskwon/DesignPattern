@@ -20,7 +20,7 @@ public class ObserverPattern {
     public interface Observer{
         void update(float t, float h, float p);
     }
-    public interface displayElement{  // Observer Pattern 과 연관은 없음
+    public interface displayElement{  // Observer Pattern 과 연관은 없는 interface
         void display();
     }
 

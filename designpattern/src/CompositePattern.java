@@ -26,7 +26,8 @@ public class CompositePattern {
         void function3(){
             throw new UnsupportedOperationException();
         }
-        public void add(Component component){
+        public void add(Component component){ // transparency 를 위한 구현 .. 동일한 pointer 로 사용 그러나 safety 를 보장하지 않음
+            //safety 를 위해 Composite 로 이동시키는 방법이 있음
             throw new UnsupportedOperationException();
         }
         public void remove(Component component){
